@@ -1,0 +1,35 @@
+<h3>Perfil Empresa</h3>
+<form id="perfilEmpresa" class="col s12">
+    <div class="input-field col s12">
+        <input type="text" id="nome" name="nome" class="validate" required/>
+        <label for="nome">Nome da empresa</label>
+        <span class="helper-text nome" data-error="nome inválido" data-success="ok"></span>
+    </div>
+    <div class="input-field col s12">
+        <label for="celular">Celular</label>
+        <input type="number" id="celular" name="celular" class="validate" required>
+        <span class="helper-text celular" data-error="celular inválido" data-success="ok"></span>
+    </div>
+    <div class="input-field col s12">
+        <label for="horaAbre">Hora que Abre</label>
+        <input type="time" id="horaAbre" name="horaAbre" class="validate" required>
+        <span class="helper-text horaAbre" data-error="hora inválido" data-success="ok"></span>
+    </div> 
+    <div class="input-field col s12">
+        <label for="horaFecha">Hora que Fecha</label>
+        <input type="time" id="horaFecha" name="horaFecha" class="validate" required>
+        <span class="helper-text horaFecha" data-error="hora inválido" data-success="ok"></span>
+    </div>
+    <!--<div class="input-field col s12">
+        <select multiple>
+            <option value="" disabled selected>Quais formas de pagamento você aceita?</option>
+            <option value="1">Em Dinheiro</option>
+            <option value="2">Débito</option>
+            <option value="3">Crédito</option>
+        </select>
+    </div>-->
+    <div class="input-field col s12">
+        <a class="btn modal-close waves-effect waves-light modal-trigger cancelar">Cancelar</a>
+        <input type="submit" class="btn right waves-effect waves-light" value="Avançar"/>
+    </div>
+</form>

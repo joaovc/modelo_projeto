@@ -1,0 +1,16 @@
+<h3>Novo Usuário</h3>
+<form id="usuario<?php echo ucfirst($parametros[0]);?>" class="col s12">
+    <div class="input-field col s12">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" class="validate" required/>
+        <span class="helper-text email" data-error="Email inválido" data-success="ok"></span>
+    </div>
+    <div class="input-field col s12">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" class="validate" required>
+        <span class="helper-text senha" data-error="Digite uma senha" data-success="ok"></span>
+    </div>
+    
+    <a class="btn modal-close waves-effect waves-light modal-trigger">Cancelar</a>
+    <input type="submit" class="btn right waves-effect waves-light" value="Avançar"/>
+</form>

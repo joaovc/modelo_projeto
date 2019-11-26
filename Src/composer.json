@@ -1,0 +1,17 @@
+{
+    "name": "joao/projeto",
+    "description": "Sistema web para Lava Rapido",
+    "authors": [
+        {
+            "name": "Joao Victor",
+            "email": "joaovcsantosap@gmail.com"
+        }
+    ],
+    "require":{},
+    "autoload":{
+        "psr-4":{
+            "App\\":"../App/",
+            "Src\\":"../Src/"
+        }
+    }
+}
